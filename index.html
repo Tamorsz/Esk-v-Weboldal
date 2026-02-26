@@ -17,7 +17,21 @@
             color: #042259;
             text-align: center;
             font-family: 'Carattere', cursive;
-            font-size: clamp(50px, 10vw, 100px); /* Reszponzív betűméret */
+            font-size: 5rem; /* Reszponzív betűméret */
+            margin-top: 20px;
+        }
+        h2 {
+            color: #042259;
+            text-align: center;
+            font-family: 'League Spartan', sans-serif;
+            font-size: 2rem; /* Reszponzív betűméret */;
+            margin-top: 5rem;
+        }
+        h3 {
+            color: #224f03;
+            text-align: center;
+            font-family: 'League Spartan', sans-serif;
+            font-size: 1.5rem; /* Reszponzív betűméret */
             margin-top: 20px;
         }
         p {
@@ -25,6 +39,7 @@
             text-align: center;
             font-family: 'League Spartan', sans-serif;
             font-size: 1.2rem;
+            text-decoration: underline;
         }
         /* Egyedi stílus a menühöz */
         .navbar {
@@ -54,6 +69,9 @@
                         <a class="nav-link" href="#">Főmenü</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#Helyszínek">Helyszínek</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Programok</a>
                     </li>
                     <li class="nav-item">
@@ -66,8 +84,26 @@
 
     <div class="container mt-5">
         <h1>Saci és Tomi</h1>
+
         <img src="Pictures/lego_kép.png" class="img-fluid" alt="Saci és Tomi képe" style="display: block; margin: 20px auto; max-width: 300px;">
-        <p>Ez egy esküvői weboldal, ahol a vendégek információkat találhatnak a nagy napról, valamint üzeneteket hagyhatnak az ifjú párnak.</p>
+
+        <h2>2026. JÚLIUS 24</h2>
+        <h3>Szeretettel meghívunk benneteket az esküvőnkre és az azt követő lakodalmunkra</h3>
+        <h2>Részvételi szándékod kérjük előre jelezd!</h2>
+        <p style="text-decoration: none;">Mit ajándékba szánnátok,<br>inkább a perselyünkbe dobjátok.<br>Igérjük, hogy nem vész kárba,<br>befektetjük egy kis családba!</p>
+
+        <h1 style="margin-top: 5rem;" id="Helyszínek">Helyszínek</h1>
+        <h2>13:30 Vendégvárás</h2>
+        <h3>Isaszegi Damjanich János Általános Iskola</h3>
+        <p>2117 Isaszeg, Madách Imre utca 1.</p>
+
+        <h2>14:30 Egyházi esküvő</h2>
+        <h3>Isaszegi Szent István király templom</h3>
+        <p>2117 Isaszeg, Templom utca 1.</p>
+
+        <h2>17:00 Lakodalom</h2>
+        <h3>Százas Pince Rendezvényház, Monor</h3>
+        <p>2200 Monor, Strázsa-hegy, Mézes sor</p>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
