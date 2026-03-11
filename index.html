@@ -41,6 +41,29 @@
             font-size: 1.2rem;
             text-decoration: underline;
         }
+        ul {
+            color: #042259;
+            font-weight: bold;
+            text-align: center; 
+            font-family: 'League Spartan', sans-serif;
+            font-size: 1.8rem;
+            list-style-type: none; /* Eltávolítja a listajeleket */
+            padding-left: 0; /* Eltávolítja a bal oldali behúzást */
+        }
+        dt{
+            color: #042259;
+            text-align: center;
+            font-family: 'League Spartan', sans-serif;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        dd{
+            color: #224f03;
+            text-align: center;
+            font-family: 'League Spartan', sans-serif;
+            font-size: 1.5rem;
+            margin-bottom: 20px; /* Egy kis térköz a bekezdések között */
+        }
         /* Egyedi stílus a menühöz */
         .navbar {
             background-color: #f3e7d5;
@@ -72,10 +95,10 @@
                         <a class="nav-link" href="#Helyszínek">Helyszínek</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Programok</a>
+                        <a class="nav-link" href="#Programok">Programok</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Étlap</a>
+                        <a class="nav-link" href="#Étlap">Étlap</a>
                     </li>
                 </ul>
             </div>
@@ -92,7 +115,7 @@
         <h2>Részvételi szándékod kérjük előre jelezd!</h2>
         <p style="text-decoration: none;">Mit ajándékba szánnátok,<br>inkább a perselyünkbe dobjátok.<br>Igérjük, hogy nem vész kárba,<br>befektetjük egy kis családba!</p>
 
-        <h1 style="margin-top: 5rem;" id="Helyszínek">Helyszínek</h1>
+        <h1 style="margin-top: 5rem;" id="Helyszínek"><br>Helyszínek</h1>
         <h2>13:30 Vendégvárás</h2>
         <h3>Isaszegi Damjanich János Általános Iskola</h3>
         <p>2117 Isaszeg, Madách Imre utca 1.</p>
@@ -104,6 +127,38 @@
         <h2>17:00 Lakodalom</h2>
         <h3>Százas Pince Rendezvényház, Monor</h3>
         <p>2200 Monor, Strázsa-hegy, Mézes sor</p>
+    </div>
+
+    <div class="container mt-5">
+        <h1 style="margin-top: 5rem;" id="Programok"><br>Programok</h1>
+        <p style="text-decoration: none;">A programváltozás jogát fenntartjuk.</p>
+        <ul>
+            <li>18:00 Fotózás</li>
+            <li>19:00 Vacsora</li>
+            <li>20:30 Nyitótánc</li>
+            <li>22:00 Torta</li>
+            <li>23:00 Menyasszonytánc</li>
+        </ul>
+        
+    </div>
+
+    <div class="container mt-5">
+        <h1 style="margin-top: 5rem;" id="Étlap"><br>Étlap</h1>
+        <p style="text-decoration: none;">Az ételallergiákat kérjük előre jelezni!</p>
+        <dl>
+            <dt>Leves: </dt>
+            <dd>Újházi tyúkhúsleves gazdagon</dd>
+            <dt>Főétel: </dt>
+            <dd>Marhapörkölt sósburgonyával, sertéspörkölt galuskával</dd>
+            <dt>Sültes tál: </dt>
+            <dd>Rántott sertésborda, rántott sajt, rántott gomba, natúr jércemell, gombával töltött sertésborda, sajttal töltött sertésborda</dd>
+            <dt>Köretek: </dt>
+            <dd>Petrezselymes burgonya, párolt rizs</dd>
+            <dt>Vegyes saláta: </dt>
+            <dd>Uborka, almapaprika, vegyes vágott</dd>
+            <dt>Éjféli vacsora: </dt>
+            <dd>Töltött káposzta, tejföllel, friss kenyérrel</dd>
+        </dl>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
