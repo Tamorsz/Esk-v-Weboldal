@@ -1,0 +1,73 @@
+
+        body {
+            background-color: #fcf6ee;
+            padding-top: 70px; /* Hogy a fix menü ne takarja ki a címet */
+        }
+        h1 {
+            color: #042259;
+            text-align: center;
+            font-family: 'Carattere', cursive;
+            font-size: 5rem; /* Reszponzív betűméret */
+            margin-top: 20px;
+        }
+        h2 {
+            color: #042259;
+            text-align: center;
+            font-family: 'League Spartan', sans-serif;
+            font-size: 2rem; /* Reszponzív betűméret */;
+            margin-top: 5rem;
+        }
+        h3 {
+            color: #224f03;
+            text-align: center;
+            font-family: 'League Spartan', sans-serif;
+            font-size: 1.5rem; /* Reszponzív betűméret */
+            margin-top: 20px;
+        }
+        p {
+            color: #224f03;
+            text-align: center;
+            font-family: 'League Spartan', sans-serif;
+            font-size: 1.2rem;
+            text-decoration: underline;
+        }
+        ul {
+            color: #042259;
+            font-weight: bold;
+            text-align: center; 
+            font-family: 'League Spartan', sans-serif;
+            font-size: 1.8rem;
+            list-style-type: none; /* Eltávolítja a listajeleket */
+            padding-left: 0; /* Eltávolítja a bal oldali behúzást */
+        }
+        dt{
+            color: #042259;
+            text-align: center;
+            font-family: 'League Spartan', sans-serif;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        dd{
+            color: #224f03;
+            text-align: center;
+            font-family: 'League Spartan', sans-serif;
+            font-size: 1.5rem;
+            margin-bottom: 20px; /* Egy kis térköz a bekezdések között */
+        }
+        /* Egyedi stílus a menühöz */
+        .navbar {
+            background-color: #f3e7d5;
+            box-shadow: 0 2px 10px #042259;
+        }
+        .nav-link {
+            color: #042259 !important;
+            font-family: 'League Spartan', sans-serif;
+            font-weight: 500;
+        }
+        .maps-Link {
+            color: #224f03;
+            text-align: center;
+            font-family: 'League Spartan', sans-serif;
+            font-size: 1.2rem;
+            text-decoration: underline;
+        }
